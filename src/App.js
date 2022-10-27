@@ -59,6 +59,8 @@ const App = () => {
       setNewTodo('')
       setNewContext('')
       setTodos([...todos, { title: newTodo, context: newContext, id: Date.now() }])
+    }else {
+      alert('Title and Context are required')
     }
   }
   return (
