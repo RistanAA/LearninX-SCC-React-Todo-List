@@ -1,0 +1,10 @@
+.done-list {
+    border: 1px solid green;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+  }
+

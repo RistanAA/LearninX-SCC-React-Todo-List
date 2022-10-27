@@ -1,0 +1,12 @@
+.row-static {
+    display: grid;
+    grid-template-columns: auto auto auto 1fr;
+    grid-template-areas: "a b c d e";
+    padding: 10px;
+  }
+
+  .inputList {
+    border: 0 groove ;
+    border-radius: 10px;
+    background-color: beige;
+  }
