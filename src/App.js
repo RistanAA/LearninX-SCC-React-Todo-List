@@ -48,7 +48,7 @@ const App = () => {
   const handleDeleteDone = (event) => {
     // console.log(event.target.getAttribute("id"))
     // let dump = [...doneTodos]
-    let index = event.target.getAttribute("id")
+    let index = parseInt(event.target.getAttribute("id"))
     // dump.splice(event.target.getAttribute("id"), 1)
     // setDoneTodos(dump)
     setDoneTodos([...doneTodos.slice(0,index), ...doneTodos.slice(index + 1, doneTodos.length) ])

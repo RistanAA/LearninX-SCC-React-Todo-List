@@ -1,5 +1,16 @@
-.header {
-    padding: 10px;
-    border: 1px groove ;
-    border-radius: 10px;
-  }
+.container {
+  border: 1px solid #ddd;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+.container1 {
+  border: 1px solid #ddd;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}

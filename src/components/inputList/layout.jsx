@@ -19,25 +19,25 @@ const InputList = ({
 }) => {
   return (
     <div>
-      <div className="inputList">
-        <div className="row-static">
-          <p>title : </p>
-          <input className="input-group-text"
+      <div className="add-form">
+        <div className="input-group1">
+          <label className="form-label1">title : </label>
+          <input className="add-input input-body"
             style={{ width: "200px" }}
             tes="tes"
             value={newTodo}
             onChange={handleChange1}
           />
-          <p>context :</p>
-          <input className="input-group-text"
+          <label className="form-label1">context :</label>
+          <input className="add-input input-body"
             style={{ width: "200px" }}
             value={newContext}
             onChange={handleChange2}
           />
-          <button className="btn btn-primary" onClick={addNewTodo}>Add new to do</button>
         </div>
+          <button className="add-button" onClick={addNewTodo}>Add new to do</button>
       </div>
-      <h2>Working !!</h2>
+      <h2>Working.. 🔥</h2>
       <div className="list-container">
         {todos.map((todo, index) => {
           return (
@@ -52,7 +52,7 @@ const InputList = ({
           );
         })}
       </div>
-      <h2>Done !!</h2>
+      <h2>Done..! 🎉</h2>
       <div className="list-container">
         {doneTodos.map((todo, index) => {
           return (

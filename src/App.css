@@ -1,6 +1,9 @@
 .app {
-  padding: 5%;
+  max-width: 1200px;
+  min-width: 800px;
+  margin: 0 auto;
 }
+
 
 .square {
   width: 100px;
